@@ -1,6 +1,7 @@
-## About
+# Directus
 
-This repository is forked from ONLYOFFICE/Docker-CommunityServer, we have the following modifications are provided
+官方提供了完整的 Docker 以及 Docker Compose [安装方案](https://docs.directus.io/guides/installation/docker/)。
 
-* replace README.md
-* add README-zh.md, CHANGELOG.md, Note.md, License.md, docker-compose.yml,.env, src, .github folder
+## 安装
+
+官方的 Docker Compose 文件测试可以运行，但自行编写的 docker-compose-production.yml 数据库无法连接，有待进一步研究
